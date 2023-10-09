@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-end;
+  background-color: none;
+
+  &__logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+
+  &__logo {
+    height: 2rem;
+    border-radius: 100%;
+  }
+
+  &__menu {
+    display: flex;
+    font-size: 15px;
+    gap: 1em;
+    list-style: none;
+  }
+
+  &__menu li:hover {
+   // background-color: $color-secondary;
+    border-radius: 3px;
+    transition: 0.3s ease;
+  }
+
+  &__menu li {
+    padding: 4px 12px;
+    text-decoration: $color-primary;
+  }
+}

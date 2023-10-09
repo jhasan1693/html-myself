@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  position: relative;
+  height: calc(100vh - 65px);
+  padding: 0 40px;
+  margin-bottom: 70px;
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+
+  &__text-box--primary {
+    width: 50%;
+  }
+
+  &__heading-primary {
+    line-height: 68px;
+    color: $color-primary;
+    font-size: 60px;
+  }
+
+  &__heading-secondary {
+    color: $color-primary;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  &__media-box {
+    position: absolute;
+    width: 450px;
+    top: 0;
+    left: 60px;
+    z-index: -100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
